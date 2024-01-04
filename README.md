@@ -15,8 +15,8 @@ To install using `git`, clone the repository and install the package manually:
 ```shell
 git clone https://github.com/Atelier-Du-Maker/YSI-ODO-RTU-Python
 cd YSI-ODO-RTU-Python
-python3 setup.py install```
-
+python3 setup.py install
+```
 ### Using pip
 
 To install using pip, simply run the following command:
@@ -24,7 +24,7 @@ To install using pip, simply run the following command:
 pip install git+https://github.com/Atelier-Du-Maker/YSI-ODO-RTU-Python
 ```
 
-###Usage
+## #Usage
 
 After installation, you can import the module in your Python projects:
 ```shell
@@ -34,9 +34,9 @@ from ODO_sensor_lib import YSIOdoRtuSensor
 Create an instance of the sensor with the appropriate configuration, and use the provided methods to interact with the sensor.
 Contributing
 
-###Contributing
+### Contributing
 Contributions to the project are welcome. Please ensure that any pull requests or issues are made through the GitHub repository.
 
-###License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
