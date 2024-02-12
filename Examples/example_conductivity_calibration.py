@@ -26,9 +26,10 @@ def main():
         log.debug(result)
 
     try:           
-        print(sensor.get_user_temperature_reference())
-        sensor.set_user_temperature_reference(25)
-        print(sensor.get_user_temperature_reference())
+        sensor.perform_us_cm_calibration(1610001234, 1413.0)
+        sensor.perform_salinity_ppt_calibration(1610001234, 35.0)
+        print(sensor.get_conductivity_last_calibration_time_and_qc_score())
+
     except Exception as e:
         print(f"An error occurred: {e}")
 
