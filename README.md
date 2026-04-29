@@ -32,7 +32,6 @@ from ODO_sensor_lib import YSIOdoRtuSensor
 ```
 
 Create an instance of the sensor with the appropriate configuration, and use the provided methods to interact with the sensor.
-Contributing
 
 ## Contributing
 Contributions to the project are welcome. Please ensure that any pull requests or issues are made through the GitHub repository.
